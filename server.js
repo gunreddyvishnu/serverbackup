@@ -163,6 +163,7 @@ client.on("connect", function () {
             debugtopic,
             JSON.stringify({
               data: slotDetails,
+              index:currentindex
             }),
             function (err) {
               if (err) {
@@ -192,6 +193,7 @@ client.on("connect", function () {
             debugtopic,
             JSON.stringify({
               err: error,
+              index:currentindex
             }),
             function (err) {
               if (err) {
