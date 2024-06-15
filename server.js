@@ -222,7 +222,7 @@ client.on("connect", function () {
     else{
 
     }
-  }, 60000);
+  }, 20000);
 });
 
 client.on("error", function (err) {
